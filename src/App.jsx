@@ -130,19 +130,23 @@ function App() {
         );
 
         if (!cancelled) {
-          setHistory(
-            response.data.prices.map(([timestamp, price]) => ({
-              time: new Date(timestamp).toLocaleDateString("en-US", {
-                month: "short",
-                day: "numeric",
-                ...(period === 1 ? {
-                  hour: "numeric",
-                  minute: "2-digit",
-                } : {}),
-              }),
-              price,
-            })
-          );
+         
+setHistory(
+  response.data.prices.map(([timestamp, price]) => ({
+    time: new Date(timestamp).toLocaleDateString("en-US", {
+      month: "short",
+      day: "numeric",
+      ...(period === 1
+        ? {
+            hour: "numeric",
+            minute: "2-digit",
+          }
+        : {}),
+    }),
+    price,
+  }))
+);
+
         }
       } catch {
         if (!cancelled) {
