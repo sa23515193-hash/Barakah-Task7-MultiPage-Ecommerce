@@ -1,43 +1,63 @@
-# CoinPulse — Crypto Market Tracker
+# Stylo Gujrat — Multi-Page E-Commerce Website
 
-A responsive React + Vite frontend project created for the Barakah TechLabs React.js Frontend Engineer internship assignment.
+A modern, responsive multi-page e-commerce website developed as **Task 7** of the Barakah TechLabs internship.
 
-## Run locally
+## Project Overview
 
-1. Install Node.js 20 LTS or newer.
-2. Extract this project ZIP and open a terminal in this folder (the folder containing `package.json`).
-3. Run:
+Stylo Gujrat is an online shopping website concept focused on footwear, bags, and fashion accessories. It provides a clean shopping interface, product browsing, category navigation, and a responsive layout for desktop and mobile users.
 
-```bash
-npm install
-npm run dev
-```
+## Features
 
-4. Open the local URL printed by Vite.
+- Multi-page website structure
+- Modern homepage and navigation
+- Shoes, bags, and accessories categories
+- Product listings and product cards
+- Responsive layout for mobile, tablet, and desktop
+- Consistent styling and reusable UI components
+- User-friendly shopping interface
 
-## Production build
+## Technology Stack
 
-```bash
-npm run build
-npm run preview
-```
+- HTML5
+- CSS3
+- JavaScript
+- React and Vite (if used in the project)
 
-The production files are generated in `dist/`.
+## Internship Task
 
-## Deploy to GitHub Pages
+**Program:** Barakah TechLabs Internship  
+**Task:** Task 7 — Multi-Page E-Commerce Website  
+**Project:** Stylo Gujrat
 
-1. Create a **public** GitHub repository with a matching project name.
-2. Upload the contents of this folder to the repository root (do not upload the ZIP itself).
-3. Push the files to the `main` branch.
-4. In GitHub, open **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**.
-5. Open **Actions** and wait for the “Deploy to GitHub Pages” workflow to complete.
-6. Open the published URL shown in the workflow deployment details.
+## Getting Started
 
-The workflow builds the project and applies the repository base path automatically. Keep the workflow file at `.github/workflows/deploy.yml`.
+1. Clone or download this repository.
+2. Open the project folder in Visual Studio Code.
+3. Install dependencies if the project uses React and Vite:
 
-## Notes
+   ```bash
+   npm install
+   ```
 
-- This is a frontend-only project and does not require a backend or database.
-- Some features use local sample data or browser storage.
-- External fonts and (where applicable) public market API requests require internet access.
-- Review the task-specific demo limitations before presenting the project as production software.
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in the terminal.
+
+For a plain HTML, CSS, and JavaScript version, open `index.html` in a browser.
+
+## Project Status
+
+Developed as an internship project to demonstrate multi-page website development, responsive UI design, and e-commerce interface implementation.
+
+## Author
+
+**Sawaira Ijaz**  
+Computer Science Undergraduate | Front-End & Full-Stack Web Development
+
+---
+
+*Created for learning and portfolio development as part of the Barakah TechLabs internship.*
